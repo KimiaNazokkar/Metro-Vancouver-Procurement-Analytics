@@ -32,7 +32,6 @@ Among competitive procurements with recorded bidder counts, 100 competitions rec
 ## Dashboard Suite
 
 The analytical results are presented through a four-dashboard Tableau suite designed for executive, operational, and governance audiences.
-Dashboard screenshots are provided below.
 
 ### Dashboard 1 — Executive Summary
 
