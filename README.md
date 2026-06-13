@@ -37,6 +37,9 @@ The analytical results are presented through a four-dashboard Tableau suite desi
 
 Provides a high-level view of Metro Vancouver's procurement portfolio, including total awarded spend, a normalized baseline that excludes two generational infrastructure projects to enable operational comparison, competition outcomes, supplier participation, and year-over-year spend trends.
 
+<img width="1200" height="800" alt="Executive Summary" src="https://github.com/user-attachments/assets/af1a2388-8034-4f1e-867c-3e3a01e3bed5" />
+
+
 ### Dashboard 2 — Vendor Concentration & Supplier Dependence
 
 Examines supplier concentration, vendor rankings, cumulative spend concentration, and supplier recurrence across reporting years. The concentration curve highlights the degree to which procurement spending is concentrated among a relatively small group of suppliers.
