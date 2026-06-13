@@ -39,6 +39,7 @@ Provides a high-level view of Metro Vancouver's procurement portfolio, including
 
 <img width="1200" height="800" alt="Executive Summary" src="https://github.com/user-attachments/assets/af1a2388-8034-4f1e-867c-3e3a01e3bed5" />
 
+---
 
 ### Dashboard 2 — Vendor Concentration & Supplier Dependence
 
