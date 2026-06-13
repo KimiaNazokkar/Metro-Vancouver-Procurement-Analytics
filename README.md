@@ -27,4 +27,5 @@ Direct award competitions represented 15.7% of competitions in 2023 and 51.9% of
 
 ### 5. Deep bidder participation was the exception rather than the norm
 Among competitive procurements with recorded bidder counts, 100 competitions received a single bid, 110 received two bids, and 102 received three bids. Competitions attracting six or more bidders represented a minority of the competitive procurement portfolio, indicating that broad market participation was relatively uncommon across the study period.
+
 ---
