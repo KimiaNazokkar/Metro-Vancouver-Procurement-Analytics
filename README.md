@@ -29,3 +29,34 @@ Direct award competitions represented 15.7% of competitions in 2023 and 51.9% of
 Among competitive procurements with recorded bidder counts, 100 competitions received a single bid, 110 received two bids, and 102 received three bids. Competitions attracting six or more bidders represented a minority of the competitive procurement portfolio, indicating that deep market participation was the exception rather than the norm — limiting competitive price discovery for a meaningful share of procurement activity across the study period.
 
 ---
+## Dashboard Suite
+
+The analytical results are presented through a four-dashboard Tableau suite designed for executive, operational, and governance audiences.
+
+Interactive Tableau Public access will be linked here upon publication. Dashboard screenshots are provided below.
+
+### Dashboard 1 — Executive Summary
+
+Provides a high-level view of Metro Vancouver's procurement portfolio, including total awarded spend, a normalized baseline that excludes two generational infrastructure projects to enable operational comparison, competition outcomes, supplier participation, and year-over-year spend trends.
+
+![Executive Summary](dashboard/executive_summary.png)
+
+### Dashboard 2 — Vendor Concentration & Supplier Dependence
+
+Examines supplier concentration, vendor rankings, cumulative spend concentration, and supplier recurrence across reporting years. The concentration curve highlights the degree to which procurement spending is concentrated among a relatively small group of suppliers.
+
+![Vendor Concentration](dashboard/vendor_concentration.png)
+
+### Dashboard 3 — Competition Structure & Bid Depth
+
+Analyzes procurement instrument mix, direct award utilization, bidder participation, single-bidder rates, and bidder depth distributions. Tracks direct award utilization over time, bidder depth distributions, and single-bidder rates by year and competition type — including a 2024 peak in which more than one in four competitive procurements received a single vendor response.
+
+![Competition Structure](dashboard/competition_structure.png)
+
+### Dashboard 4 — Methodology & Data Governance
+
+Documents analytical methodology, KPI definitions, data lineage, known data quality items, governance controls, limitations, and reproducibility considerations supporting the analysis.
+
+![Methodology & Data Governance](dashboard/methodology_governance.png)
+
+---
