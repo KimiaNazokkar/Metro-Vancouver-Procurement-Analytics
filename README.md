@@ -45,12 +45,22 @@ Provides a high-level view of Metro Vancouver's procurement portfolio, including
 
 Examines supplier concentration, vendor rankings, cumulative spend concentration, and supplier recurrence across reporting years. The concentration curve highlights the degree to which procurement spending is concentrated among a relatively small group of suppliers.
 
+<img width="1200" height="800" alt="Vendor Concentration   Supplier Dependence" src="https://github.com/user-attachments/assets/7bf715e3-b178-41d4-b379-8abae4ea22bb" />
+
+---
+
 ### Dashboard 3 — Competition Structure & Bid Depth
 
 Analyzes procurement instrument mix, direct award utilization, bidder participation, single-bidder rates, and bidder depth distributions. Tracks direct award utilization over time, bidder depth distributions, and single-bidder rates by year and competition type — including a 2024 peak in which more than one in four competitive procurements received a single vendor response.
 
+<img width="1200" height="800" alt="Competition Structure   Bid Depth" src="https://github.com/user-attachments/assets/7069349e-6f4d-471d-ad41-bb7eaf595012" />
+
+---
+
 ### Dashboard 4 — Methodology & Data Governance
 
 Documents analytical methodology, KPI definitions, data lineage, known data quality items, governance controls, limitations, and reproducibility considerations supporting the analysis.
+
+<img width="1200" height="800" alt="Methodology   Data Governance" src="https://github.com/user-attachments/assets/b7c604b0-4738-4a2e-accc-1745c32151fd" />
 
 ---
