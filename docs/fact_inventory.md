@@ -460,7 +460,7 @@ These are approved narrative framings derived from the verified facts above. The
 
 ### N-01 — Portfolio framing statement
 
-> Metro Vancouver disclosed $4.7B in awarded procurement activity across 679 awarded competitions covering 2023 through March 2026. This analysis examines spending patterns, supplier concentration, competition structure, and market participation across a major regional public utility.
+> Metro Vancouver disclosed $4.7B in awarded procurement activity across 679 awarded competitions covering 2023 through March 2026. This analysis examines spending patterns, supplier concentration, competition structure, and recorded vendor participation across a major regional public utility.
 
 **Status:** APPROVED. Uses F-06, F-04, F-02.
 
@@ -476,7 +476,7 @@ These are approved narrative framings derived from the verified facts above. The
 
 ### N-03 — Single-bidder rate finding
 
-> Across competitive procurements, 21.9% of competitions received only one vendor response during the study period.
+> Across competitive procurements, 21.9% of competitions received only one vendor response during the source reporting period.
 
 **Status:** APPROVED for overall rate. Uses F-16.
 

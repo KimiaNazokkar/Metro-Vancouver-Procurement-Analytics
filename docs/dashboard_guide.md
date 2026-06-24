@@ -71,8 +71,8 @@ Dashboards 2 and 3.
 - **679** — Distinct awarded competitions with at least one awarded vendor.
 - **624** — Normalized supplier entities receiving at least one disclosed award.
 - **21.9%** — Single-Bidder Rate: the share of competitive procurements (excluding
-  direct-award instruments) with exactly one recorded vendor response across the study
-  period.
+  direct-award instruments) with exactly one recorded vendor response across the source
+  reporting period.
 
 **Normalized spend by source reporting year.** A bar chart shows normalized
 KPI-eligible disclosed awarded spend by source reporting year. Normalized spend
@@ -139,7 +139,7 @@ full-year trend signal.
 
 ---
 
-## Dashboard 2 — Vendor Concentration & Supplier Dependence
+## Dashboard 2 — Supplier Concentration & Recurrence
 
 ### Analytical Purpose
 
@@ -348,10 +348,10 @@ suppression audit log.
   `data/clean/step5h_suppression_audit_log.csv`.
 - *KDQI-002 — Competition Number Format Variation: 22-167 / 22-0167* `Open` —
   Two competition numbers share description prefix and overlapping vendor pool;
-  definitive relationship unconfirmed from source documents. Treated as distinct
-  events. No published KPI has been adjusted for this item because the relationship
-  remains unconfirmed. This is an open investigation item, not a confirmed data
-  quality defect.
+  definitive relationship unconfirmed from source documents. Treated as distinct 
+  competition numbers pending further verification. No disclosed awarded spend figures
+  are restated pending resolution. This is an open investigation item, not a confirmed
+  data quality defect.
 
 **Limitations summary.** Key limitations surfaced on the dashboard:
 

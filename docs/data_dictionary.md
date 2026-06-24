@@ -1,11 +1,13 @@
 # Metro Vancouver Procurement Analytics
 ## Data Dictionary
 
+**Version:** 1.1
+**Last updated:** 2026-06-22
+**Owner:** Kimia Nazokkar
+
 **Dataset:** `data/clean/step5h_deduped_procurement_awards.csv`
 **Rows:** 2,133 vendor-competition records
 **Reporting period:** 2023 through March 2026 (2026 is a partial year: January–March only)
-**Last updated:** 2026-06-22
-**Owner:** Kimia Nazokkar
 
 ---
 
@@ -95,7 +97,7 @@ The award date as published in the source PDF. Format varies by year: ISO format
 | Source | Metro Vancouver Awarded Bids Register PDFs |
 | Pipeline stage introduced | Step 1 extraction |
 
-The vendor name extracted from the source PDF and retained for source traceability. Minor extraction-time cleanup may be applied where required, including whitespace or line-break normalization and source-verified correction of PDF parsing or encoding artifacts. Casing, punctuation, legal suffixes, and abbreviation styles are otherwise preserved from the source. The same supplier entity may appear under different name variants across competitions or years; use `vendor_name_display` for the curated canonical form used in Tableau.
+The vendor name extracted from the source PDF and retained for source traceability. Minor extraction-time cleanup may be applied where required, including whitespace or line-break normalization and source-verified correction of PDF parsing or encoding artifacts. Casing, punctuation, legal suffixes, and abbreviation styles are otherwise preserved from the source. The same supplier entity may appear under different name variants across competitions or years; use `vendor_name_display` for the curated display name used in Tableau.
 
 ---
 
