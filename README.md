@@ -249,25 +249,25 @@ metro-vancouver-procurement-analytics/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/KimiaNazokkar/Metro-Vancouver-Procurement-Analytics.git
-cd Metro-Vancouver-Procurement-Analytics
+git clone https://github.com/KimiaNazokkar/metro-vancouver-procurement-analytics.git
+cd metro-vancouver-procurement-analytics
 
 # 2. Install dependencies
-pip install pdfplumber pandas
+python3 -m pip install pdfplumber pandas
 
 # 3. Run the pipeline in stage order
-python scripts/step1_extract_2023.py
-python scripts/step1_extract_2024.py
-python scripts/step1_extract_2025.py
-python scripts/step1_extract_2026.py
-python scripts/step2_merge_datasets.py
-python scripts/step3_clean_data.py
-python scripts/step4_normalize_competition_types.py
-python scripts/step5a_safe_transforms.py
-python scripts/step5b_build_vendor_keys.py
-python scripts/step5f_assisted_curation.py
-python scripts/step5g_apply_vendor_lookup.py
-python scripts/step5h_suppress_source_duplicates.py
+python3 scripts/step1_extract_2023.py
+python3 scripts/step1_extract_2024.py
+python3 scripts/step1_extract_2025.py
+python3 scripts/step1_extract_2026.py
+python3 scripts/step2_merge_datasets.py
+python3 scripts/step3_clean_data.py
+python3 scripts/step4_normalize_competition_types.py
+python3 scripts/step5a_safe_transforms.py
+python3 scripts/step5b_build_vendor_keys.py
+python3 scripts/step5f_assisted_curation.py
+python3 scripts/step5g_apply_vendor_lookup.py
+python3 scripts/step5h_suppress_source_duplicates.py
 ```
 
 Running all twelve scripts in stage order reproduces `data/clean/step5h_deduped_procurement_awards.csv` from the source PDFs. Each stage enforces schema contracts or blocking assertions that halt execution on integrity failures, so stage-order execution is required.
