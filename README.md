@@ -20,7 +20,7 @@ The **final governed dataset** contains **2,133 vendor-competition records** cov
 
 ## Dashboard Suite
 
-All four dashboards draw from the final governed dataset (`data/clean/step5h_deduped_procurement_awards.csv`, 2,133 rows, 22 columns). The full Tableau workbook (`tableau/Metro_Vancouver_Procurement_Analytics.twbx`) is included in this repository and opens in Tableau Desktop.
+All four dashboards draw from the final governed dataset (`data/clean/step5h_deduped_procurement_awards.csv`, 2,133 rows, 22 columns). The Tableau workbook (`tableau/Metro_Vancouver_Procurement_Analytics.twbx`) is a self-contained Tableau Packaged Workbook with the data extract embedded; it opens in Tableau Desktop without requiring an external data connection.
 
 ---
 
@@ -78,7 +78,7 @@ Across 624 normalized awarded supplier entities, the top 11 collectively account
 
 ### 3 · Across competitive procurements, 21.9% of competitions had exactly one recorded vendor response
 
-Of 494 unique competitions conducted through competitive instruments — excluding direct-award types — 108 recorded exactly one vendor response, a single-bidder rate of 21.9%. By source year: 2023: 20.0% (29 of 145), 2024: 28.0% (40 of 143), 2025: 19.4% (36 of 186), and 2026: 11.5% (3 of 26). Year-level denominators are source-year appearances and sum to 500 because six competitions conducted through competitive instruments appear in more than one source year; the overall rate is calculated on 494 unique competitive competitions. The 2024 rate is the peak across full reporting years, meaning more than one in four competitive-instrument source-year appearances in that source year recorded a single vendor response. The 2026 partial-year rate reflects a small sample across one partial quarter and is not a meaningful trend signal.
+Of 494 unique competitions conducted through competitive instruments — excluding direct-award types — 108 recorded exactly one vendor response, a single-bidder rate of 21.9%. By source year: 2023: 20.0% (29 of 145), 2024: 28.0% (40 of 143), 2025: 19.4% (36 of 186), and 2026: 11.5% (3 of 26). Year-level denominators are source-year appearances and sum to 500 because six competitions conducted through competitive instruments appear in more than one source year; the overall rate is calculated on 494 unique competitive competitions. The 2024 rate is the peak across full reporting years, meaning more than one in four competitive-instrument appearances in 2024 recorded a single vendor response. The 2026 partial-year rate reflects a small sample across one partial quarter and is not a meaningful trend signal.
 
 ---
 
@@ -88,7 +88,7 @@ Direct-award competitions — classified as DA, DA/NOIC, SS/NOIC, or NOIC — re
 
 ---
 
-### 5 · Shallow recorded bid depth was the norm across competitive procurements
+### 5 · Recorded participant depth was concentrated at one to five participants across competitive procurements
 
 Among 494 competitive competitions with recorded participant counts, the bid depth distribution is: 108 competitions recorded one participant, 105 recorded two, 102 recorded three, 100 recorded four to five, 55 recorded six to ten, and 24 recorded eleven or more. Competitions with six or more recorded participants represent a smaller share of the competitive portfolio. "Participants" refers to vendors recorded in the Awarded Bids Register for each competition — both awarded and non-awarded vendors where disclosed.
 
@@ -272,7 +272,7 @@ python3 scripts/step5h_suppress_source_duplicates.py
 
 Running all twelve scripts in stage order reproduces `data/clean/step5h_deduped_procurement_awards.csv` from the source PDFs. Each stage enforces schema contracts or blocking assertions that halt execution on integrity failures, so stage-order execution is required.
 
-**Tableau dashboards:** Open `tableau/Metro_Vancouver_Procurement_Analytics.twbx` in Tableau Desktop. The workbook connects to the final governed dataset at `data/clean/step5h_deduped_procurement_awards.csv`.
+**Tableau dashboards:** Open `tableau/Metro_Vancouver_Procurement_Analytics.twbx` in Tableau Desktop. The workbook is a Tableau Packaged Workbook with the data extract embedded and requires no external data connection to open. To refresh from the source CSV, re-import `data/clean/step5h_deduped_procurement_awards.csv` in Tableau Desktop.
 
 ---
 
