@@ -307,8 +307,8 @@ Start with Key Findings in this README and Dashboard 3 (Competition Structure & 
 
 ---
 
-## Source & License
+## Source & Attribution
 
-**Data source:** Metro Vancouver Awarded Bids Register, publicly disclosed at [metrovancouver.org/bidding-opportunities/awarded-bids](https://metrovancouver.org/bidding-opportunities/awarded-bids). Source documents cover the 2023, 2024, 2025, and January–March 2026 reporting periods. This analysis reflects a static extract and does not update automatically.
+**Data source:** Metro Vancouver Awarded Bids Register, publicly disclosed at [metrovancouver.org/bidding-opportunities/awarded-bids](https://metrovancouver.org/bidding-opportunities/awarded-bids). Source documents cover the 2023, 2024, 2025, and January–March 2026 reporting periods. This analysis reflects a static extract as of March 2026 and does not update automatically.
 
-**Analysis:** All analytical work, pipeline code, documentation, and dashboards are the original work of [Kimia Nazokkar](https://github.com/KimiaNazokkar). The analysis is descriptive only and does not constitute an audit, official evaluation, or performance assessment of Metro Vancouver's procurement activities.
+**Analysis:** All analytical work, pipeline code, documentation, and dashboards are the original work of [Kimia Nazokkar](https://github.com/KimiaNazokkar). This project is independent and is not affiliated with, endorsed by, or reviewed by Metro Vancouver. The analysis is descriptive only and does not constitute an audit, official evaluation, or performance assessment of Metro Vancouver's procurement activities.
