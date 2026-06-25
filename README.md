@@ -173,17 +173,13 @@ Competition `22-167` appears in the 2023 and 2024 source reports with $233.1M in
 ```
 metro-vancouver-procurement-analytics/
 │
+├── dashboard-screenshots/
+│   ├── Executive_Summary.png
+│   ├── Supplier_Concentration.png
+│   ├── Structure_Bid_Depth.png
+│   └── Methodology_Data_Governance.png
+│
 ├── data/
-│   ├── raw/                                           # Source PDFs — not modified
-│   │   ├── awarded-bids-2023.pdf
-│   │   ├── awarded-bids-2024.pdf
-│   │   ├── awarded-bids-2025.pdf
-│   │   └── awarded-bids-2026.pdf
-│   ├── extracted/                                     # Stage 1 outputs
-│   │   ├── step1_extracted_2023.csv
-│   │   ├── step1_extracted_2024.csv
-│   │   ├── step1_extracted_2025.csv
-│   │   └── step1_extracted_2026.csv
 │   ├── clean/                                         # Stages 2–5H outputs and governed artifacts
 │   │   ├── step5h_deduped_procurement_awards.csv      # Final governed dataset (2,133 rows)
 │   │   ├── step5h_suppression_audit_log.csv           # KDQI-001 suppression audit log
@@ -194,12 +190,29 @@ metro-vancouver-procurement-analytics/
 │   │   ├── step4_normalized_procurement_awards.csv
 │   │   ├── step3_cleaned_procurement_awards.csv
 │   │   └── step2_merged_procurement_awards.csv
-│   └── diagnostics/                                   # Stage-level diagnostic outputs
-│       ├── 2023/
-│       ├── 2024/
-│       ├── 2025/
-│       ├── 2026/
-│       └── step2_duplicate_inventory.csv
+│   ├── diagnostics/                                   # Stage-level diagnostic outputs
+│   │   ├── 2023/
+│   │   ├── 2024/
+│   │   ├── 2025/
+│   │   ├── 2026/
+│   │   └── step2_duplicate_inventory.csv
+│   ├── extracted/                                     # Stage 1 outputs
+│   │   ├── step1_extracted_2023.csv
+│   │   ├── step1_extracted_2024.csv
+│   │   ├── step1_extracted_2025.csv
+│   │   └── step1_extracted_2026.csv
+│   └── raw/                                           # Source PDFs — not modified
+│       ├── awarded-bids-2023.pdf
+│       ├── awarded-bids-2024.pdf
+│       ├── awarded-bids-2025.pdf
+│       └── awarded-bids-2026.pdf
+│
+├── docs/
+│   ├── data_dictionary.md                             # Field definitions for all 22 columns
+│   ├── methodology.md                                 # Pipeline architecture and analytical decisions
+│   ├── dashboard_guide.md                             # Dashboard interpretation and metric framing
+│   ├── kdqi_register.md                               # Known Data Quality Issues Register
+│   └── fact_inventory.md                              # Controlled inventory of all published metrics
 │
 ├── scripts/
 │   ├── step1_extract_2023.py                          # Stage 1 — 2023 PDF extraction
@@ -221,21 +234,8 @@ metro-vancouver-procurement-analytics/
 │       ├── diag_2025_raw_dump.py
 │       └── diag_2026_raw_dump.py
 │
-├── docs/
-│   ├── data_dictionary.md                             # Field definitions for all 22 columns
-│   ├── methodology.md                                 # Pipeline architecture and analytical decisions
-│   ├── dashboard_guide.md                             # Dashboard interpretation and metric framing
-│   ├── kdqi_register.md                               # Known Data Quality Issues Register
-│   └── fact_inventory.md                              # Controlled inventory of all published metrics
-│
-├── dashboard-screenshots/
-│   ├── Executive_Summary.png
-│   ├── Supplier_Concentration.png
-│   ├── Structure_Bid_Depth.png
-│   └── Methodology_Data_Governance.png
-│
 ├── tableau/
-│   └── Metro_Vancouver_Procurement_Analytics.twbx     # Tableau workbook
+│   └── Metro_Vancouver_Procurement_Analytics.twbx     # Tableau Packaged Workbook
 │
 ├── .gitignore
 └── README.md
